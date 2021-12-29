@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html{
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wholecontainer{
+    width: 650px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 225px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px black;
+}

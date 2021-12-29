@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html {
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+.wholecontainer{
+  margin-top: 90px;
+}
+.head {
+  background-color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+.postjob {
+  display: none;
+  justify-content: center;
+}
+.postjob .area {
+  position: fixed;
+  width: 650px;
+  outline: 0.5px solid;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  z-index: 1;
+}
+.navigation {
+  width: 300px;
+}
+.navigation h2 {
+  padding: 10px 15px;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  cursor: default;
+  font-size: 20px;
+}
+
+.sidebar a:hover {
+    color: white !important;
+  background-color: #555;
+}
+
+div.content {
+  margin-left: 250px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.body {
+  width: 85%;
+  padding: 25px;
+}
+/* .jobs{
+    display: none;
+} */

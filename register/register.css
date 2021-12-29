@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html{
+    height: 100%;
+    background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_510482146_200010002000928055_393268.jpg');
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wholecontainer{
+    width: 650px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 125px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px black;
+}
